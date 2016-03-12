@@ -1,0 +1,13 @@
+#include <iostream> 
+
+using namespace std;
+
+int main()
+{
+	char nama[10];
+	cout << "Ketikkan nama Anda: ";
+	cin >> nama;//membaca inputan dari keyboard
+
+	cout << "\nHallo " << nama << endl;
+	system ("pause");
+}

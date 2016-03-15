@@ -1,0 +1,32 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main ()
+{
+    double panjang;
+    double lebar;
+    double jari_jari;
+    double luas_segiempat;
+    double luas_setling;
+    double luas_total;
+
+
+    cout <<"Masukkan Panjang = "<<endl;
+    cin >>panjang;
+    cout <<"Masukkan Lebar = "<<endl;
+    cin >>lebar;
+    cout <<"Masukkan Jari-jari = "<<endl;
+    cin >>jari_jari;
+
+    luas_segiempat = panjang*lebar;
+    luas_setling = (3.14*jari_jari*jari_jari)/2;
+    luas_total = luas_segiempat+luas_setling;
+
+    cout << "Luas Segiempat : "<<luas_segiempat<<endl;
+    cout << "Luas Setengah Lingkaran : "<<luas_setling<<endl;
+    cout << "Luas Total : "<<luas_total<<endl;
+
+    return 0;
+}
